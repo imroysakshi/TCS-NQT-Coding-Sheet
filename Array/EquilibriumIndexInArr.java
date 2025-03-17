@@ -11,7 +11,7 @@ public class EquilibriumIndexInArr {
             if(i!=0){
                 localSum += arr[i-1];
             }
-            System.out.println(localSum+" "+s/2);
+            // System.out.println(localSum+" "+s/2);
             if(localSum == s/2){
                 return i ;
             }
